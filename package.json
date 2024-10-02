@@ -1,0 +1,17 @@
+{
+  "name": "pre-entrega-uno",
+  "version": "1.0.0",
+  "main": "./src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon ./src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lucas Lescano",
+  "license": "ISC",
+  "description": "Coderhouse. Carrera de Desarrollo Full Stack. Programación Backend I: Desarrollo Avanzado de Backend. Comisión 70275.",
+  "dependencies": {
+    "express": "^4.21.0"
+  }
+}
