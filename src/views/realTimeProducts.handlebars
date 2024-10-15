@@ -1,0 +1,55 @@
+    <main class="contanier">
+        <section class="p-5">
+            <h2 class="mb-5 text-center">Lista de productos</h2>
+            <div class="table-responsive">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Nombre</th>
+                            <th scope="col">Descripción</th>
+                            <th scope="col">Código</th>
+                            <th scope="col">Precio</th>
+                            <th scope="col">Estado</th>
+                            <th scope="col">Stock</th>
+                            <th scope="col">Categoría</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="product-list"></tbody>
+                </table>
+            </div>
+        </section>
+        <section class="p-5 bg-body">
+            <h2 class="mb-5 text-center">Nuevo producto</h2>
+            <form id="product-form">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="title" name="title">
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Descripción</label>
+                    <textarea class="form-control" id="description" name="description"></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="code" class="form-label">Código</label>
+                    <input type="text" class="form-control" id="code" name="code">
+                </div>
+                <div class="mb-3">
+                    <label for="price" class="form-label">Precio</label>
+                    <input type="number" class="form-control" id="price" name="price">
+                </div>
+                <div class="mb-3">
+                    <label for="stock" class="form-label">Stock</label>
+                    <input type="number" class="form-control" id="stock" name="stock">
+                </div>
+                <div class="mb-3">
+                    <label for="category" class="form-label">Categoría</label>
+                    <input type="text" class="form-control" id="category" name="category">
+                </div>
+                <button type="submit" class="btn btn-primary" id="add-product-btn">Agregar</button>
+            </form>
+        </section>
+    </main>
+    <script src="/socket.io/socket.io.js"></script>
+    <script type="module" src="/static/js/index.js"></script>

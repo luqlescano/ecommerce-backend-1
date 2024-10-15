@@ -1,5 +1,5 @@
 {
-  "name": "pre-entrega-uno",
+  "name": "pre-entrega-dos",
   "version": "1.0.0",
   "main": "./src/app.js",
   "type": "module",
@@ -12,6 +12,8 @@
   "license": "ISC",
   "description": "Coderhouse. Carrera de Desarrollo Full Stack. Programación Backend I: Desarrollo Avanzado de Backend. Comisión 70275.",
   "dependencies": {
-    "express": "^4.21.0"
+    "express": "^4.21.0",
+    "express-handlebars": "^8.0.1",
+    "socket.io": "^4.8.0"
   }
 }
